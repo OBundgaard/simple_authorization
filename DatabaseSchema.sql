@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS users (
     user_id INTEGER PRIMARY KEY,
     username TEXT UNIQUE NOT NULL,
     password_hash TEXT NOT NULL,
+    role_id INTEGER NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS articles (
