@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2c6b8d-01ae-40b3-bbe3-6e626ce0b9dd" name="Changes" comment="Added SQLite database">
+    <list default="true" id="be2c6b8d-01ae-40b3-bbe3-6e626ce0b9dd" name="Changes" comment="Removed SQLite database">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseSchema.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +30,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "OBundgaard"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a1ceb183-e80b-4394-b57a-d93b164f0599" />
+        <option name="url" value="https://github.com/OBundgaard/simple_authorization.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -63,7 +80,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Database Script.DatabaseSchema.sql">
+  <component name="RunManager" selected="Python.main">
     <configuration name="DatabaseSchema.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/DatabaseSchema.sql" />
       <script-mode>FILE</script-mode>
@@ -115,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712741412364</updated>
-      <workItem from="1712742686713" duration="1288000" />
+      <workItem from="1712742686713" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="Basic first commit">
       <option name="closed" value="true" />
@@ -149,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712744778536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed SQLite database">
+      <option name="closed" value="true" />
+      <created>1712744946599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712744946599</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +184,7 @@
     <MESSAGE value="Basic first commit" />
     <MESSAGE value="Basic second commit" />
     <MESSAGE value="Added SQLite database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SQLite database" />
+    <MESSAGE value="Removed SQLite database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed SQLite database" />
   </component>
 </project>
