@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be2c6b8d-01ae-40b3-bbe3-6e626ce0b9dd" name="Changes" comment="Removed SQLite database">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database_utilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/73ac5017-4190-4f5d-b212-57812c7de60b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/73ac5017-4190-4f5d-b212-57812c7de60b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ba5dbe56-2484-4ecf-b07c-a3191f9dfb0c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ba5dbe56-2484-4ecf-b07c-a3191f9dfb0c/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="be2c6b8d-01ae-40b3-bbe3-6e626ce0b9dd" name="Changes" comment="Added all commands, added readme, added requirements for python, and added database utilities (mainly classes)">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,38 +54,41 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2eu526hYdI3fkpd7NbrmvPXbvts" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Database Script.DatabaseSchema.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/olive/PycharmProjects/simple_authorization&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Database Script.DatabaseSchema.sql.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/olive/PycharmProjects/simple_authorization",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;b8f6a22c-ca38-414d-a6e8-897b11b0b14c&quot;,
-      &quot;73ac5017-4190-4f5d-b212-57812c7de60b&quot;
+    "RunConfigurationTargetLRU": [
+      "b8f6a22c-ca38-414d-a6e8-897b11b0b14c",
+      "73ac5017-4190-4f5d-b212-57812c7de60b"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.main">
     <configuration name="DatabaseSchema.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/DatabaseSchema.sql" />
@@ -146,7 +143,7 @@
       <workItem from="1712742686713" duration="6821000" />
       <workItem from="1712750540485" duration="275000" />
       <workItem from="1712756568448" duration="1237000" />
-      <workItem from="1712814867448" duration="21254000" />
+      <workItem from="1712814867448" duration="21502000" />
     </task>
     <task id="LOCAL-00001" summary="Basic first commit">
       <option name="closed" value="true" />
@@ -196,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712745045208</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added all commands, added readme, added requirements for python, and added database utilities (mainly classes)">
+      <option name="closed" value="true" />
+      <created>1712840365048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712840365048</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,13 +219,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Basic first commit" />
     <MESSAGE value="Basic second commit" />
     <MESSAGE value="Added SQLite database" />
     <MESSAGE value="Removed SQLite database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed SQLite database" />
+    <MESSAGE value="Added all commands, added readme, added requirements for python, and added database utilities (mainly classes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added all commands, added readme, added requirements for python, and added database utilities (mainly classes)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/simple_authorization$main.coverage" NAME="main Coverage Results" MODIFIED="1712831029068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/simple_authorization$main.coverage" NAME="main Coverage Results" MODIFIED="1712840433339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

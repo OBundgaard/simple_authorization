@@ -225,7 +225,7 @@ def post_comment():
             created_at=datetime.now()
         ))
 
-        return jsonify({'success': 'Article posted'}), 200
+        return jsonify({'success': 'Comment posted'}), 200
 
     except Exception as e:
         return jsonify({'error': str(e)}), 400
